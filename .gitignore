@@ -1,0 +1,17 @@
+# Python virtual environments
+venv/
+jupyter-env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Node (future safety)
+node_modules/
