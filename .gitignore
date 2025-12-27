@@ -1,17 +1,7 @@
-# Python virtual environments
 venv/
-jupyter-env/
-.env/
-
-# Python cache
+application/venv/
 __pycache__/
 *.pyc
-
-# VS Code
+.env
 .vscode/
-
-# macOS
 .DS_Store
-
-# Node (future safety)
-node_modules/
