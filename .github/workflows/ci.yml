@@ -22,3 +22,12 @@ jobs:
         - name: Build Docker image
           run: |
             docker build -t my-python-app:latest .
+
+        - name: Run container
+            run: docker run -d -p 5001:5001 my-python-app:latest
+
+        - name: wait for app to start
+          run: sleep 5
+
+        name: Health check
+        run: |curl http://localhost:5001/health
