@@ -1,4 +1,5 @@
 venv/
+jupyter-env/
 application/venv/
 __pycache__/
 *.pyc
